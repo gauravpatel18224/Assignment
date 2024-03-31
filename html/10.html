@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="ext.css">
+
+</head>
+<body>
+    <div>
+        <form action="google.com">
+            <h2>Individual Registration</h2>
+            <div class="main_container">
+
+                <h3>User Perticulars</h3>
+                <div class="user_per">
+                    <div class="user_per_cen">
+                        <label for="login_id" class="starlable">Login Id</label>
+                        <input type="text" id="login_id" name="login_id" required>
+
+                        <label for="pass" class="starlable">Pasword</label>
+                        <input type="password" id="pass" name="pass" required>
+
+                        <label for="cpass" class="starlable">Confirm Pasword</label>
+                        <input type="text" id="cpass" name="cpass" required>
+                    </div>
+                </div>
+                <h3>Personal Perticulars</h3>
+                <div class="user_per">
+                    <div class="pers_per_cen">
+                        <label for="salutation" class="starlable">Salutation</label>
+                        <select name="salutation" id="salutation">
+                            <option value="1">Mr.</option>
+                            <option value="2">Mrs.</option>
+                        </select>
+
+                        <label for="f_name" class="starlable">First Name</label>
+                        <input type="text" id="f_name" name="f_name" required>
+
+                        <label for="m_name">Middle Name</label>
+                        <input type="text" id="m_name" name="m_name">
+
+                        <label for="l_name" class="starlable">Last Name</label>
+                        <input type="text" id="l_name" name="l_name" required>
+
+                        <label for="resident" class="starlable">Resident Status</label>
+                        <select name="resident" id="resident">
+                            <option value="1">Own house</option>
+                            <option value="2">P.G house</option>
+                            <option value="1">Rent house</option>
+                        </select>
+
+                        <label for="country" class="starlable">Country</label>
+                        <select name="country" id="country">
+                            <option value="1">india</option><option value="1">afghanistan</option>
+                            <option value="2">pakistan</option><option value="1">algeria</option>
+                            <option value="1">argentina</option><option value="1">australia</option>
+                            <option value="1">brazil</option><option value="1">bangladesh</option>
+                            <option value="1">colombia</option><option value="1">canada</option>
+                            <option value="1">denmark</option><option value="1">china</option>
+                            <option value="1">france</option><option value="1">germany</option>
+                            <option value="1">indonesia</option><option value="1">iran</option>
+                            <option value="1">russia</option><option value="1">italy</option>
+                            <option value="1">malta</option><option value="1">japan</option>
+                            <option value="1">mexico</option><option value="1">maldives</option>
+                        </select>
+
+                        <label for="email" class="starlable">Email Id</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="mobile" class="starlable">Mobile No.</label>
+                        <input type="text" id="mobile" name="mobile" required>
+                    </div>
+                </div>
+
+                <h3>Account Perticulars</h3>
+                <div class="user_per">
+                    <div class="user_per_cen">
+                        <label for="acoount_no" class="starlable">Acoount No</label>
+                        <input type="text" id="acoount_no" name="acoount_no" required>
+
+                        <label for="nickname" class="starlable">Nick Name</label>
+                        <input type="password" id="nickname" name="nickname" required>
+
+                        <label for="fund_transfer" class="starlable">Fund Transfer</label>
+                        <select name="fund_transfer" id="fund_transfer">
+                            <option value="1">Internal Transfer</option>
+                            <option value="2">Incoming Transfer</option>
+                            <option value="1">Outgoing Customer Transfer</option>
+                            <option value="2">Outgoing Bank Transfer</option>
+                            <option value="1">Outgoing Own A/C Transfer</option>
+                        </select>
+                    </div>
+                </div>
+                <h3>DECLARATION</h3>
+                <div>
+                    <p>I have read, understood and hereby agree to the Terms and Conditions in respect of all products
+                        and channels.</p>
+                    <p>I understand that any changes in the terms and conditions applicable to this relationship would
+                        be made available to me on request at any IOB branches. I confirm that all accounts under this
+                        login name are operated singly and in case of joint account operated by either or
+                        survivor/anyone or survivor(s) under his/her joint name respectively. I do hereby declare that
+                        information furnished in this form is true to the best of my knowledge and belief.</p>
+                </div>
+                <div id="btn">
+                    <button type="submit" class="btn" >Submit</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

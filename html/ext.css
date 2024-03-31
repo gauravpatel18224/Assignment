@@ -1,0 +1,65 @@
+.starlable::before {
+    content: " *";
+    color: red;
+}
+
+
+.main_container {
+    background-color: rgb(114, 230, 230);
+    padding: 10px 30px;
+}
+
+.user_per {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+}
+
+.user_per_cen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.pers_per_cen {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+div h3 {
+    font-size: 22px;
+    color: rgb(255, 0, 0);
+}
+
+form h2 {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(90,161,199);
+    color: #8A2F45;
+    padding: 8px;
+
+}
+
+
+fieldset {
+    border: 0;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 5px;
+     padding: 10px 20px;
+
+}
+.btn{
+    background-color: #3B91C8;
+}
+
+.btn {
+    margin: 4px;
+    padding: 4px;
+}
